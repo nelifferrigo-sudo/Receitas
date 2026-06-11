@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <title>Sabores da Casa | Receitas Práticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="barra-acessibilidade">
+        <button onclick="alterarFonte('aumentar')" aria-label="Aumentar texto">A+</button>
+        <button onclick="alterarFonte('diminuir')" aria-label="Diminuir texto">A-</button>
+        <button id="botao-fundo" onclick="alternarModo()" aria-label="Alternar modo claro e escuro">🌓 Modo Escuro</button>
+    </div>
+
+    <header class="hero">
+        <div class="hero-conteudo">
+            <h1>Sabores da Casa</h1>
+            <p class="frase-efeito">"Cozinhar é a arte de transformar amor em sabor. Encontre a receita perfeita para o seu dia!"</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Nossas Receitas Especiais</h2>
+        <div class="grade-receitas">
+
+            <div class="card">
+                <img src="imagens/torta-maca.jpg" alt="Torta de maçã dourada e polvilhada com canela" onerror="this.src='https://images.unsplash.com/photo-1507226983735-a838615193b0?w=500'">
+                <div class="card-info">
+                    <h3>Torta de Maçã</h3>
+                    <p>Clássica, quentinha e com gostinho de infância.</p>
+                    <a href="torta-maca.html" class="botao-receita">Ver Receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/bolo-chocolate.jpg" alt="Bolo de chocolate fofinho com cobertura brilhante" onerror="this.src='https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500'">
+                <div class="card-info">
+                    <h3>Bolo de Chocolate</h3>
+                    <p>O bolo mais fofinho e recheado que você já provou.</p>
+                    <a href="bolo-chocolate.html" class="botao-receita">Ver Receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/bolinho-arroz.jpg" alt="Bolinhos de arroz dourados e crocantes" onerror="this.src='https://images.unsplash.com/photo-1541532713592-79a0317b6b77?w=500'">
+                <div class="card-info">
+                    <h3>Bolinho de Arroz</h3>
+                    <p>Crocante por fora, macio por dentro. Perfeito para petiscar.</p>
+                    <a href="bolinho-arroz.html" class="botao-receita">Ver Receita</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="imagens/sonho.jpg" alt="Sonho de padaria recheado com creme de confeiteiro" onerror="this.src='https://images.unsplash.com/photo-1551024601-bec78aea704b?w=500'">
+                <div class="card-info">
+                    <h3>Sonho de Padaria</h3>
+                    <p>Aquela massa leve e polvilhada com muito creme legítimo.</p>
+                    <a href="sonho.html" class="botao-receita">Ver Receita</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sabores da Casa. Feito com amor e segurança.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
